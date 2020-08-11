@@ -3,4 +3,4 @@ A game developed using HTML, CSS, and JavaScript. Among the given three doors, u
 If the chore bot is found in the last door then the player wins. If the bot appears in either the first or the second door, the game will be over.
 
 # Demo
-<img src="https://github.com/ovezovs/Chore-Door-game/blob/master/chore-door-demo.gif" alt="Demo of the game">
+<img src="https://github.com/molenathyhoangxuannguyen/Chore-Door-Game/blob/master/chore-door-demo.gif" alt="Demo of the game">
