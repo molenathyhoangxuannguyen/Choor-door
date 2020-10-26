@@ -3,13 +3,18 @@
 const doorImage1 = document.getElementById('door1');
 const doorImage2 = document.getElementById('door2');
 const doorImage3 = document.getElementById('door3');
+const doorImage3 = document.getElementById('door4');
+const doorImage3 = document.getElementById('door5');
 const botDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg';
 const beachDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg';
 const spaceDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg';
-let numClosedDoors = 3;
+
+let numClosedDoors = 5;
 let openDoor1;
 let openDoor2;
 let openDoor3;
+let openDoor4;
+let openDoor5;
 const closedDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg';
 let startButton = document.getElementById('start');
 let currentlyPlaying = true;
