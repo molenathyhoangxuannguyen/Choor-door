@@ -8,7 +8,8 @@ const doorImage3 = document.getElementById('door5');
 const botDoorPath = 'https://github.com/molenathyhoangxuannguyen/Chore-Door-Game/blob/master/img/Bomb.png';
 const beachDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg';
 const spaceDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg';
-
+const spaceDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg';
+const spaceDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg';
 let numClosedDoors = 5;
 let openDoor1;
 let openDoor2;
@@ -96,10 +97,12 @@ startButton.onclick = () => {
 };
 
 function startRound() {
-  numClosedDoors = 3;
+  numClosedDoors = 5;
   doorImage1.src = closedDoorPath;
   doorImage2.src = closedDoorPath;
   doorImage3.src = closedDoorPath;
+  doorImage4.src = closedDoorPath;
+  doorImage5.src = closedDoorPath;
   startButton.innerHTML = 'Good luck!';
   currentlyPlaying = true;
   randomChoreDoorGenerator();
